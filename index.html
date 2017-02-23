@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="calculatorcss.css">
+</head>
+<body>
+<div id = "calculatorstyle">
+<form id="calculator">
+    <center><h1>Javascript Calculator</h1>
+    <input id="result" type="text" name="txt1"></center>
+     </form>
+    <br>
+      <button id="clearnumber" name="clear" type="submit" value= " " onclick="clearnumber()">C</button>
+        <br><br><button id="btn7" name="seven" type="submit" value= "7" onclick="displaynumber('7')">7</button>
+            <button id="btn8" name="eight" type="submit" value= "8" onclick="displaynumber('8')">8</button>
+            <button id="btn9" name="nine" type="submit" value= "9" onclick="displaynumber('9')">9</button>
+            <button id="btnadd" name="addition" type="submit" value="+" onclick="displaynumber('+')">+</button>
+            <button id="btndivide" name="divide" type="submit" value="/" onclick="displaynumber('/')">/</button>
+    <br><br> <button id="btn4" name="four" type="submit" value= "4" onclick="displaynumber('4')">4</button>
+             <button id="btn5" name="five" type="submit" value= "5" onclick="displaynumber('5')">5</button>
+             <button id="btn6" name="divide" type="submit" value= "6" onclick="displaynumber('6')">6</button>
+             <button id="btnsubtract" name="subtract" type="submit" value="-" onclick="displaynumber('-')">-</button>
+            <button id="btnexponent" name="exponent" type="submit" value="squ" onclick="square()">sq</button>
+    <br><br> <button id="btn1" name="one" type="submit" value= "1" onclick="displaynumber('1')">1</button>
+             <button id="btn2" name="two" type="submit" value= "2" onclick="displaynumber('2')">2</button>
+             <button id="btn3" name="three" type="submit" value= "3" onclick="displaynumber('3')">3</button>
+             <button id="btnmultiply" name="multiply" type="submit" value="*" onclick="displaynumber('*')">*</button>
+             <button id="btnfraction" name="reciprocal" type="submit" value=" " onclick="reciporical()">1/x</button>
+    <br><br> <button id="btn0" name="zero" type="submit" value= "0" onclick="displaynumber('0')">0</button>
+            <button id="decimal" name="clear" type="submit" value= "." onclick="displaynumber('.')">.</button>    
+            <button id="equals" name="equals" type="submit" value= "=" onclick="calculate()">  =  </button>
+    </div>
+<p id"demo"></p>
+       
+
+</body>

@@ -1,0 +1,29 @@
+#calculatorstyle{
+    background-color: #809fff;
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+    width: 350px;
+    padding: 20px;
+    font-family: georgia;
+    align-content: center;
+}
+
+button{
+    background-color: #00cc99; /* Green */
+    border: solid 1px;
+    color: black;
+    padding: 20px 30px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 5px;
+    align-content: center;
+}
+
+h1{
+    font-size: 15px;
+    align-content: center;
+}
